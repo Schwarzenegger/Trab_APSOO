@@ -1,0 +1,317 @@
+@charset "UTF-8";
+body
+{
+	background-image: url('_images/bg.jpg');
+	background-repeat: repeat;
+	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+    	color: #666;
+	font-size: 13px;
+	margin: 0px;
+}
+
+h1
+{
+	font-size: 24px;
+	font-weight: normal;
+	color: #3a3a3b;
+	letter-spacing: -1px;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+}
+
+h3
+{
+	font-size: 20px;
+	font-weight: bold;
+	color: #3a3a3b;
+	letter-spacing: -1px;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+}
+
+h4
+{
+    font-size:20px;
+    margin-top:10px;
+    text-align:center;
+}
+
+
+p
+{
+	line-height: 18px;
+}
+
+ul
+{
+	font-size: 12px;
+	line-height: 24px;
+}
+
+a
+{
+	color: #66666F;
+	text-decoration: underline;
+}
+
+a:hover
+{
+	color: #CCC85A;
+	text-decoration: none;
+}
+
+.pointer
+{
+        color: #CCC85A;
+        font-size:20px;
+}
+
+.small
+{
+	font-size: 10px;
+}
+
+.content
+{
+	position: relative;
+	width: auto;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #FFFFFF;
+	margin-top:0px;
+	padding-top:0px;
+}
+
+.header
+{
+	text-align:center;
+	width:auto;
+	padding:0px;
+	margin:0px;
+	margin-left:2%;
+	margin-right:2%;
+	background-position: center;
+	
+}
+
+.menu
+{
+	padding-top:15px;
+	padding-right:20px;
+	width: 200px;
+	float: left;
+	font-size: 14px;
+	background-color:#FFFFFF;
+}
+
+.menu h1, .menu h2, .menu h3, .menu h4
+{
+	font-weight: normal;
+	color: #CCC85A;
+}
+
+.menu ul
+{
+	list-style:none;
+}
+
+.menu ul li
+{
+	text-align:center;
+	border-bottom:1px solid #D3D3D3;
+}
+
+.menu ul li a
+{
+	text-decoration:none;
+	display:block;
+}
+
+.menu ul li a:hover
+{
+	text-decoration:none;
+	background-color:#CCC85A;
+	color:black;
+}
+
+.main
+{
+	padding-top:10px;
+	clear:right;
+	background-color:#FFFFFF;
+}
+
+.list
+{
+    border:1px solid #D3D3D3;
+    text-align:center;
+}
+
+.list_info
+{
+	background-color:#CCC85A;
+	color:black;
+	text-align:center;
+}
+
+.list td
+{
+	padding:3px;
+}
+
+.list td.button
+{
+	text-align:center;
+}
+
+.seperater
+{
+	clear:both;
+    height:20px;
+}
+
+.footer
+{
+	width: auto;
+	margin-left:2%;
+	margin-right:2%;
+	background-position: bottom center;
+	color: #CCCCCC;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+    	font-size: 11px;
+	letter-spacing: 1px;
+	text-align:center;
+}
+
+.footer a
+{
+	color: #CCCCCC;
+	text-decoration: none;
+}
+
+.footer a:hover
+{
+	color: #999999;
+	text-decoration: none;
+}
+
+.footer p{
+	padding: 0px;
+	margin: 0px;
+}
+
+.consulta
+{
+        list-style:none;
+}
+
+input
+{
+        background-color:white;
+        color: #666;
+        border:1px solid ;
+}
+
+textarea
+{
+        background-color:white;
+        color: #666;
+        border:1px solid #CCC85A;	
+}
+
+input.submit
+{
+        padding:5px;
+        border:1px solid #D3D3D3;
+}
+
+.alert
+{
+	color:red;
+	font-size:12px;
+}
+
+.reservaStatus
+{
+    text-align:center;
+    width:100%;
+    list-style:none;
+}
+
+.reservaStatus li
+{
+    display:inline;
+}
+
+.reservaStatus li a
+{
+    padding:5px;
+    border:1px solid black;
+    border-top:1px solid #D3D3D3;
+    border-left:1px solid #D3D3D3;
+    background-color:white;
+    text-decoration:none;
+}
+
+.reservaStatus li a:hover
+{
+    text-decoration:none;
+    background-color:#D3D3D3;
+    border-color:black;
+    border-bottom:1px solid white;
+    border-right:1px solid white;
+    color:black;
+
+}
+
+#reservaAtiva
+{
+    display:block;
+}
+
+#reservaEmEspera
+{
+    display:none;
+}
+
+#reservaConcluida
+{
+    display:none;
+}
+
+#reservaCancelada
+{
+    display:none;
+}
+
+.details
+{
+    border:1px solid #D3D3D3;
+    text-align:center;
+}
+
+.details td.label
+{
+    padding:10px;
+    background-color:#EEEEEE;
+}
+
+.select
+{
+     font-family: verdana; 
+     border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
